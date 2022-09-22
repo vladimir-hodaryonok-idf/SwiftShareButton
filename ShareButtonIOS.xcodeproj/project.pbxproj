@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		E713B5E928DB877500161FEE /* ShareButtonIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareButtonIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E713B5EC28DB877500161FEE /* ShareButtonIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButtonIOSApp.swift; sourceTree = "<group>"; };
-		E713B5EE28DB877500161FEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E713B5EE28DB877500161FEE /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 6; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 6; usesTabs = 0; };
 		E713B5F028DB877600161FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E713B5F328DB877600161FEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E713B5F928DB877600161FEE /* ShareButtonIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareButtonIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };

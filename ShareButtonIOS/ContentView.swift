@@ -7,13 +7,22 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var message : String = ""
+    func share(){
+        let controller = UIActivityViewController(activityItems:[message], applicationActivities: nil)
+        let scenes = UIApplication.shared.connectedScenes
+        let windowScene = scenes.first as? UIWindowScene
+        let window = windowScene?.windows.first
+        window?.rootViewController?.present(controller, animated: true)
+    }
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TextField(text: $message){
+            }.border(.secondary)
+            Button("Share",action: share)
         }
         .padding()
     }
